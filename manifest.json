@@ -1,0 +1,18 @@
+{
+  "name": "Rulebreakersadblocker",
+  "version": "1.0",
+  "description": "A simple adblocker",
+  "permissions": [ "<all_urls>" ],
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "icons": {
+    "16": "icons/ad.png",
+    "48": "icons/logo.png",
+    "128": "icons/rule.jpg"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
